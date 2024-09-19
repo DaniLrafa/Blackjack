@@ -3,9 +3,8 @@ Juego de BlackJack
 '''
 #damos instrucciones
 #
-print ("Vas a jugar un juego de blackjack contra el dealer, quien en este caso es la máquina.")
-print ("Las reglas son las siguientes:")
-print ("Gana quien consiga 21 puntos en la suma de sus cartas, o se acerque más a este número.")
+print ("Vas a jugar un juego de blackjack contra el dealer")
+print ("Gana quien se acerque mas al 21 sin exederlo")
 print ("Comenzarás con 2 cartas.")
 print ("Puedes pedir tantas cartas como quieras.")
 print ("J, Q y K valen 10 puntos.")
@@ -72,7 +71,7 @@ while Estanjugando:
             RU = input("¿Quieres otra carta? (Y/N): ").lower()
             if RU == "y":
                 CU = random.choice(cartas)
-                if sum(MU,CU) > 21 and CU == 11:
+                if sum(MU + CU) > 21 and CU == 11:
                     CU = 1
                 MU.append(CU)
             if RU == "n":
