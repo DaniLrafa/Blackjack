@@ -40,13 +40,13 @@ Este es un juego simple de BlackJack implementado en Python. En este juego, un j
 
 ## Glosario
 
--CU: "Carta usuario" Es una variable temporal que almacena el valor de la nueva carta que vamos a agregar a MU
--MU: "Mano usuario" Es una lista que almacena todas las cartas del usuario 
--CD: "Carta dealer" Es una variable temporal que almacena el valor de la nueva carta que vamos a agregar a MD
--MD: "Mano dealer" Es una lista que almacena las cartas del dealer
--CM: "carta misteriosa" Es la primer carta que recibe el dealer 
--RU: "respuesta usuario" Almacena una respuesta "Si" o "No" del usuario respecto a si quiere mas cartas
--inicio: indica si nos encontramos en la primera ronda
--Estanjugando: indica que tanto el usuario como el dealer siguen recibiendo cartas
--Uquiere: indica que el usuario aun quiere cartas
--Dquiere: indica que el dealer aun quiere cartas
+- CU: "Carta usuario" Es una variable temporal que almacena el valor de la nueva carta que vamos a agregar a MU
+- MU: "Mano usuario" Es una lista que almacena todas las cartas del usuario 
+- CD: "Carta dealer" Es una variable temporal que almacena el valor de la nueva carta que vamos a agregar a MD
+- MD: "Mano dealer" Es una lista que almacena las cartas del dealer
+- CM: "carta misteriosa" Es la primer carta que recibe el dealer 
+- RU: "respuesta usuario" Almacena una respuesta "Si" o "No" del usuario respecto a si quiere mas cartas
+- inicio: indica si nos encontramos en la primera ronda
+- Estanjugando: indica que tanto el usuario como el dealer siguen recibiendo cartas
+- Uquiere: indica que el usuario aun quiere cartas
+- Dquiere: indica que el dealer aun quiere cartas
