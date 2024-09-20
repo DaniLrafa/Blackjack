@@ -71,7 +71,7 @@ while Estanjugando:
             RU = input("¿Quieres otra carta? (Y/N): ").lower()
             if RU == "y":
                 CU = random.choice(cartas)
-                if sum(MU + CU) > 21 and CU == 11:
+                if sum(MU,CU) > 21 and CU == 11:
                     CU = 1
                 MU.append(CU)
             if RU == "n":
@@ -93,7 +93,7 @@ while Estanjugando:
     if not Uquiere and not Dquiere:
         #agregamos la carta escondida del dealer       
         #
-        MU.append(CM)
+        MD.append(CM)
 
         #mostramos resultados finales
         #
