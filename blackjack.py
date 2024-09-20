@@ -130,3 +130,4 @@ while Estanjugando:
             print("Perdiste")
         
         Estanjugando = False
+#fin
